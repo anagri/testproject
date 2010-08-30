@@ -48,6 +48,7 @@ group :test, :development do
   gem 'cucumber'
   gem 'rspec', '>= 2.0.0.beta.19'
   gem 'rspec-rails',  ">= 2.0.0.beta.19"
+  gem 'rcov'
   gem 'spork'
   gem 'launchy'
   gem 'factory_girl'
