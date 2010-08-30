@@ -28,3 +28,23 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+# rails console gems
+group :development do
+  gem 'interactive_editor'
+  gem 'hirb'
+  gem 'map_by_method'
+  gem 'wirble'
+end
+
+# test
+group :test do
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'cucumber-rails'
+  gem 'cucumber'
+  gem 'rspec-rails',  ">= 2.0.0.beta.19"
+  gem 'spork'
+  gem 'launchy'
+end
+
