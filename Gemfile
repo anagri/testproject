@@ -37,12 +37,16 @@ group :development do
   gem 'wirble'
 end
 
+gem "rails3-generators", :group => :development
+
 # test
-group :test do
+group :test, :development do
   gem 'capybara'
+  gem 'webrat'
   gem 'database_cleaner'
   gem 'cucumber-rails'
   gem 'cucumber'
+  gem 'rspec', '>= 2.0.0.beta.19'
   gem 'rspec-rails',  ">= 2.0.0.beta.19"
   gem 'spork'
   gem 'launchy'
